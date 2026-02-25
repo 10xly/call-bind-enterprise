@@ -1,0 +1,53 @@
+TAP version 14
+# Subtest: callBind
+    ok 1 - undefined is not a function
+    ok 2 - null is not a function
+    ok 3 - true is not a function
+    ok 4 - false is not a function
+    ok 5 - '' is not a function
+    ok 6 - 'foo' is not a function
+    ok 7 - 'a💩c' is not a function
+    ok 8 - 0 is not a function
+    ok 9 - -0 is not a function
+    ok 10 - 42 is not a function
+    ok 11 - Infinity is not a function
+    ok 12 - -Infinity is not a function
+    ok 13 - -1.3 is not a function
+    ok 14 - 0.2 is not a function
+    ok 15 - 1.8 is not a function
+    ok 16 - 0.3333333333333333 is not a function
+    ok 17 - Symbol(Symbol.iterator) is not a function
+    ok 18 - Symbol() is not a function
+    ok 19 - Symbol(foo) is not a function
+    ok 20 - Symbol(undefined) is not a function
+    ok 21 - Symbol(registered!) is not a function
+    ok 22 - Symbol(IntlLegacyConstructedSymbol) is not a function
+    ok 23 - 42n is not a function
+    ok 24 - 0n is not a function
+    ok 25 - {} is not a function
+    ok 26 - { valueOf: [Function: valueOf], toString: [Function: toString] } is not a function
+    ok 27 - { valueOf: [Function: valueOf], toString: [Function: toString] } is not a function
+    ok 28 - { valueOf: [Function: valueOf], toString: [Function: toString] } is not a function
+    ok 29 - { valueOf: [Function: valueOf], toString: [Function: toString] } is not a function
+    ok 30 - 42 is not a function
+    ok 31 - original function length is 2
+    ok 32 - unbound func with too few args
+    ok 33 - unbound func with right args
+    ok 34 - unbound func with too many args
+    ok 35 - function length is preserved
+    ok 36 - function name should be call-bound and then the name of the original function
+    ok 37 - bound func with too few args
+    ok 38 - bound func with right args
+    ok 39 - bound func with too many args
+    ok 40 - function length is preserved
+    ok 41 - bound func with receiver, with too few args
+    ok 42 - bound func with receiver, with right args
+    ok 43 - bound func with receiver, with too many args
+    ok 44 - function length is preserved
+    ok 45 - bound func with receiver and arg, with too few args
+    ok 46 - bound func with receiver and arg, with right arg
+    ok 47 - bound func with receiver and arg, with too many args
+    1..47
+ok 1 - callBind # time=47.663ms
+
+1..1

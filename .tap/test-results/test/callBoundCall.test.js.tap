@@ -1,0 +1,8 @@
+TAP version 14
+# Subtest: callBoundCall works like Function.prototype.call
+    ok 1 - adds numbers correctly
+    ok 2 - respects thisArg
+    1..2
+ok 1 - callBoundCall works like Function.prototype.call # time=5.359ms
+
+1..1

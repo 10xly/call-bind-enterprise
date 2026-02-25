@@ -1,0 +1,7 @@
+TAP version 14
+# Subtest: toString equals Object.prototype.toString
+    ok 1 - should be equal
+    1..1
+ok 1 - toString equals Object.prototype.toString # time=3.555ms
+
+1..1

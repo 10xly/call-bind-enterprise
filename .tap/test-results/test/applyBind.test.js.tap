@@ -1,0 +1,26 @@
+TAP version 14
+# Subtest: applyBind
+    # Subtest: overload 1: applyBind(fn)
+        ok 1 - calls fn with thisArg and args
+        1..1
+    ok 1 - overload 1: applyBind(fn) # time=6.973ms
+    
+    # Subtest: overload 2: applyBind(fn, thisArg)
+        ok 1 - calls fn with preset thisArg
+        1..1
+    ok 2 - overload 2: applyBind(fn, thisArg) # time=2.819ms
+    
+    # Subtest: overload 3: applyBind(fn, thisArg, args)
+        ok 1 - calls fn with preset thisArg and args
+        1..1
+    ok 3 - overload 3: applyBind(fn, thisArg, args) # time=4.402ms
+    
+    # Subtest: preserves thisArg correctly
+        ok 1 - thisArg is preserved
+        1..1
+    ok 4 - preserves thisArg correctly # time=2.812ms
+    
+    1..4
+ok 1 - applyBind # time=35.295ms
+
+1..1

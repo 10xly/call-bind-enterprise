@@ -1,0 +1,7 @@
+TAP version 14
+# Subtest: apply equals Function.prototype.apply
+    ok 1 - should be equal
+    1..1
+ok 1 - apply equals Function.prototype.apply # time=8.089ms
+
+1..1

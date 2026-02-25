@@ -1,0 +1,27 @@
+TAP version 14
+# Subtest: concatty combines two arrays
+    ok 1 - should be equivalent
+    1..1
+ok 1 - concatty combines two arrays # time=4.362ms
+
+# Subtest: concatty with empty first array
+    ok 1 - should be equivalent
+    1..1
+ok 2 - concatty with empty first array # time=1.91ms
+
+# Subtest: concatty with empty second array
+    ok 1 - should be equivalent
+    1..1
+ok 3 - concatty with empty second array # time=0.777ms
+
+# Subtest: concatty with two empty arrays
+    ok 1 - should be equivalent
+    1..1
+ok 4 - concatty with two empty arrays # time=0.688ms
+
+# Subtest: concatty with strings
+    ok 1 - should be equivalent
+    1..1
+ok 5 - concatty with strings # time=1.323ms
+
+1..5

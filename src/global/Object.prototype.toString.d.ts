@@ -1,0 +1,1 @@
+export = Object.prototype.toString

@@ -1,0 +1,7 @@
+TAP version 14
+# Subtest: call equals Function.prototype.call
+    ok 1 - should be equal
+    1..1
+ok 1 - call equals Function.prototype.call # time=4.435ms
+
+1..1

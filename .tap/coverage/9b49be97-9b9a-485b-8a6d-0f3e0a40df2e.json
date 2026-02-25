@@ -1,0 +1,39 @@
+{
+  "result": [
+    {
+      "scriptId": "792",
+      "url": "file:///E:/%7Ewindowsmacbook/TP/cool-call-bind/src/slicy.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 478,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "slicy",
+          "ranges": [
+            {
+              "startOffset": 222,
+              "endOffset": 452,
+              "count": 9
+            },
+            {
+              "startOffset": 404,
+              "endOffset": 435,
+              "count": 17
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    }
+  ],
+  "timestamp": 363759.960771,
+  "source-map-cache": {}
+}

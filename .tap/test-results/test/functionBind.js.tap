@@ -1,0 +1,148 @@
+TAP version 14
+# Subtest: functionBind is a function
+    ok 1 - should be equal
+    1..1
+ok 1 - functionBind is a function # time=4.747ms
+
+# Subtest: non-functions
+    1..8
+    ok 1 - throws when given true
+    ok 2 - throws when given false
+    ok 3 - throws when given
+    ok 4 - throws when given [object Object]
+    ok 5 - throws when given 42
+    ok 6 - throws when given foo
+    ok 7 - throws when given NaN
+    ok 8 - throws when given /a/g
+ok 2 - non-functions # time=5.316ms
+
+# Subtest: without a context
+    # Subtest: binds properly
+        ok 1 - should be equivalent
+        ok 2 - should be equal
+        1..2
+    ok 1 - binds properly # time=1.97ms
+    
+    # Subtest: binds properly, and still supplies bound arguments
+        ok 1 - should be equivalent
+        ok 2 - should be equal
+        1..2
+    ok 2 - binds properly, and still supplies bound arguments # time=0.74ms
+    
+    # Subtest: returns properly
+        ok 1 - returned context is namespaced context
+        ok 2 - passed arguments are correct
+        1..2
+    ok 3 - returns properly # time=0.597ms
+    
+    # Subtest: returns properly with bound arguments
+        ok 1 - returned context is namespaced context
+        ok 2 - passed arguments are correct
+        1..2
+    ok 4 - returns properly with bound arguments # time=0.741ms
+    
+    # Subtest: called as a constructor
+        # Subtest: returns object value
+            ok 1 - should be equal
+            1..1
+        ok 1 - returns object value # time=1.052ms
+        
+        # Subtest: does not return primitive value
+            ok 1 - should not be equal
+            1..1
+        ok 2 - does not return primitive value # time=0.648ms
+        
+        # Subtest: object from bound constructor is instance of original and bound constructor
+            ok 1 - result is instance of bound constructor
+            ok 2 - result is instance of original constructor
+            1..2
+        ok 3 - object from bound constructor is instance of original and bound constructor # time=0.571ms
+        
+        1..3
+    ok 5 - called as a constructor # time=5.54ms
+    
+    1..5
+ok 3 - without a context # time=13.429ms
+
+# Subtest: with a context
+    # Subtest: with no bound arguments
+        ok 1 - binds a context properly
+        ok 2 - supplies passed arguments
+        1..2
+    ok 1 - with no bound arguments # time=0.559ms
+    
+    # Subtest: with bound arguments
+        ok 1 - binds a context properly
+        ok 2 - supplies bound and passed arguments
+        1..2
+    ok 2 - with bound arguments # time=0.551ms
+    
+    # Subtest: returns properly
+        ok 1 - returned context is bound context
+        ok 2 - returned context is not lexical context
+        ok 3 - passed arguments are correct
+        1..3
+    ok 3 - returns properly # time=0.856ms
+    
+    # Subtest: returns properly with bound arguments
+        ok 1 - returned context is bound context
+        ok 2 - returned context is not lexical context
+        ok 3 - passed arguments are correct
+        1..3
+    ok 4 - returns properly with bound arguments # time=0.611ms
+    
+    # Subtest: passes the correct arguments when called as a constructor
+        ok 1 - returns the right arg when called as a constructor
+        1..1
+    ok 5 - passes the correct arguments when called as a constructor # time=0.48ms
+    
+    # Subtest: has the new instance's context when called as a constructor
+        ok 1 - should be equal
+        ok 2 - should not be equal
+        1..2
+    ok 6 - has the new instance's context when called as a constructor # time=0.433ms
+    
+    1..6
+ok 4 - with a context # time=7.69ms
+
+# Subtest: bound function length
+    # Subtest: sets a correct length without thisArg
+        ok 1 - should be equal
+        ok 2 - should be equal
+        1..2
+    ok 1 - sets a correct length without thisArg # time=0.579ms
+    
+    # Subtest: sets a correct length with thisArg
+        ok 1 - should be equal
+        ok 2 - should be equal
+        1..2
+    ok 2 - sets a correct length with thisArg # time=0.65ms
+    
+    # Subtest: sets a correct length without thisArg and first argument
+        ok 1 - should be equal
+        ok 2 - should be equal
+        1..2
+    ok 3 - sets a correct length without thisArg and first argument # time=0.558ms
+    
+    # Subtest: sets a correct length with thisArg and first argument
+        ok 1 - should be equal
+        ok 2 - should be equal
+        1..2
+    ok 4 - sets a correct length with thisArg and first argument # time=0.485ms
+    
+    # Subtest: sets a correct length without thisArg and too many arguments
+        ok 1 - should be equal
+        ok 2 - should be equal
+        1..2
+    ok 5 - sets a correct length without thisArg and too many arguments # time=0.423ms
+    
+    # Subtest: sets a correct length with thisArg and too many arguments
+        ok 1 - should be equal
+        ok 2 - should be equal
+        1..2
+    ok 6 - sets a correct length with thisArg and too many arguments # time=0.408ms
+    
+    1..6
+ok 5 - bound function length # time=6.329ms
+
+1..5

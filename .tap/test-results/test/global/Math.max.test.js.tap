@@ -1,0 +1,7 @@
+TAP version 14
+# Subtest: max equals Math.max
+    ok 1 - should be equal
+    1..1
+ok 1 - max equals Math.max # time=4.42ms
+
+1..1

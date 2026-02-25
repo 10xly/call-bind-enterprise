@@ -1,0 +1,266 @@
+{
+  "result": [
+    {
+      "scriptId": "792",
+      "url": "file:///E:/%7Ewindowsmacbook/TP/cool-call-bind/src/callBoundApply.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 239,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "793",
+      "url": "file:///E:/%7Ewindowsmacbook/TP/cool-call-bind/src/functionBind.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 2262,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "bind",
+          "ranges": [
+            {
+              "startOffset": 1099,
+              "endOffset": 2260,
+              "count": 1
+            },
+            {
+              "startOffset": 1221,
+              "endOffset": 1299,
+              "count": 0
+            },
+            {
+              "startOffset": 2062,
+              "endOffset": 2239,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "binder",
+          "ranges": [
+            {
+              "startOffset": 1366,
+              "endOffset": 1650,
+              "count": 2
+            },
+            {
+              "startOffset": 1416,
+              "endOffset": 1587,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "794",
+      "url": "file:///E:/%7Ewindowsmacbook/TP/cool-call-bind/src/global/Object.prototype.toString.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 66,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "968",
+      "url": "file:///E:/%7Ewindowsmacbook/TP/cool-call-bind/src/global/Math.max.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 47,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "2181",
+      "url": "file:///E:/%7Ewindowsmacbook/TP/cool-call-bind/src/concatty.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 489,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "concatty",
+          "ranges": [
+            {
+              "startOffset": 183,
+              "endOffset": 460,
+              "count": 2
+            },
+            {
+              "startOffset": 312,
+              "endOffset": 337,
+              "count": 0
+            },
+            {
+              "startOffset": 396,
+              "endOffset": 441,
+              "count": 6
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "2182",
+      "url": "file:///E:/%7Ewindowsmacbook/TP/cool-call-bind/src/slicy.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 478,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "slicy",
+          "ranges": [
+            {
+              "startOffset": 222,
+              "endOffset": 452,
+              "count": 1
+            },
+            {
+              "startOffset": 404,
+              "endOffset": 435,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "2183",
+      "url": "file:///E:/%7Ewindowsmacbook/TP/cool-call-bind/src/joiny.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 513,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "joiny",
+          "ranges": [
+            {
+              "startOffset": 220,
+              "endOffset": 487,
+              "count": 1
+            },
+            {
+              "startOffset": 424,
+              "endOffset": 465,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "2184",
+      "url": "file:///E:/%7Ewindowsmacbook/TP/cool-call-bind/src/global/Function.prototype.call.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 43,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "2185",
+      "url": "file:///E:/%7Ewindowsmacbook/TP/cool-call-bind/src/global/Function.prototype.apply.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 44,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "2186",
+      "url": "file:///E:/%7Ewindowsmacbook/TP/cool-call-bind/src/callBoundCall.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 113,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    }
+  ],
+  "timestamp": 363758.833384,
+  "source-map-cache": {}
+}

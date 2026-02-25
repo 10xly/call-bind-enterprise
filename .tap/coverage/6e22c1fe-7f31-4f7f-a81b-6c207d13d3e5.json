@@ -1,0 +1,44 @@
+{
+  "result": [
+    {
+      "scriptId": "792",
+      "url": "file:///E:/%7Ewindowsmacbook/TP/cool-call-bind/src/concatty.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 489,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "concatty",
+          "ranges": [
+            {
+              "startOffset": 183,
+              "endOffset": 460,
+              "count": 5
+            },
+            {
+              "startOffset": 312,
+              "endOffset": 337,
+              "count": 7
+            },
+            {
+              "startOffset": 396,
+              "endOffset": 441,
+              "count": 7
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    }
+  ],
+  "timestamp": 363758.461732,
+  "source-map-cache": {}
+}

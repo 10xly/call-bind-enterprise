@@ -1,0 +1,23 @@
+{
+  "result": [
+    {
+      "scriptId": "792",
+      "url": "file:///E:/%7Ewindowsmacbook/TP/cool-call-bind/src/global/Function.prototype.call.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 43,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    }
+  ],
+  "timestamp": 363757.006884,
+  "source-map-cache": {}
+}

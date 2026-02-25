@@ -1,0 +1,405 @@
+{
+  "result": [
+    {
+      "scriptId": "601",
+      "url": "file:///E:/%7Ewindowsmacbook/TP/cool-call-bind/src/callBind.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 3224,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 1500,
+              "endOffset": 1687,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "a",
+          "ranges": [
+            {
+              "startOffset": 1517,
+              "endOffset": 1583,
+              "count": 4
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "callBind",
+          "ranges": [
+            {
+              "startOffset": 2058,
+              "endOffset": 3193,
+              "count": 33
+            },
+            {
+              "startOffset": 2175,
+              "endOffset": 2309,
+              "count": 30
+            },
+            {
+              "startOffset": 2309,
+              "endOffset": 3132,
+              "count": 3
+            },
+            {
+              "startOffset": 3132,
+              "endOffset": 3148,
+              "count": 2
+            },
+            {
+              "startOffset": 3149,
+              "endOffset": 3153,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "call",
+          "ranges": [
+            {
+              "startOffset": 2412,
+              "endOffset": 2729,
+              "count": 9
+            },
+            {
+              "startOffset": 2492,
+              "endOffset": 2509,
+              "count": 6
+            },
+            {
+              "startOffset": 2517,
+              "endOffset": 2534,
+              "count": 3
+            },
+            {
+              "startOffset": 2598,
+              "endOffset": 2652,
+              "count": 6
+            },
+            {
+              "startOffset": 2660,
+              "endOffset": 2682,
+              "count": 3
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "1734",
+      "url": "file:///E:/%7Ewindowsmacbook/TP/cool-call-bind/src/applyBind.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 243,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "applyBind",
+          "ranges": [
+            {
+              "startOffset": 167,
+              "endOffset": 243,
+              "count": 3
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "1735",
+      "url": "file:///E:/%7Ewindowsmacbook/TP/cool-call-bind/src/functionBind.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 2262,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "bind",
+          "ranges": [
+            {
+              "startOffset": 1099,
+              "endOffset": 2260,
+              "count": 4
+            },
+            {
+              "startOffset": 1221,
+              "endOffset": 1299,
+              "count": 0
+            },
+            {
+              "startOffset": 1808,
+              "endOffset": 1866,
+              "count": 7
+            },
+            {
+              "startOffset": 2062,
+              "endOffset": 2239,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "binder",
+          "ranges": [
+            {
+              "startOffset": 1366,
+              "endOffset": 1650,
+              "count": 12
+            },
+            {
+              "startOffset": 1416,
+              "endOffset": 1587,
+              "count": 0
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "1736",
+      "url": "file:///E:/%7Ewindowsmacbook/TP/cool-call-bind/src/global/Object.prototype.toString.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 66,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "1737",
+      "url": "file:///E:/%7Ewindowsmacbook/TP/cool-call-bind/src/global/Math.max.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 47,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "2023",
+      "url": "file:///E:/%7Ewindowsmacbook/TP/cool-call-bind/src/concatty.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 489,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "concatty",
+          "ranges": [
+            {
+              "startOffset": 183,
+              "endOffset": 460,
+              "count": 18
+            },
+            {
+              "startOffset": 312,
+              "endOffset": 337,
+              "count": 3
+            },
+            {
+              "startOffset": 396,
+              "endOffset": 441,
+              "count": 35
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "2024",
+      "url": "file:///E:/%7Ewindowsmacbook/TP/cool-call-bind/src/slicy.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 478,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "slicy",
+          "ranges": [
+            {
+              "startOffset": 222,
+              "endOffset": 452,
+              "count": 24
+            },
+            {
+              "startOffset": 404,
+              "endOffset": 435,
+              "count": 31
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "2025",
+      "url": "file:///E:/%7Ewindowsmacbook/TP/cool-call-bind/src/joiny.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 513,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        },
+        {
+          "functionName": "joiny",
+          "ranges": [
+            {
+              "startOffset": 220,
+              "endOffset": 487,
+              "count": 5
+            },
+            {
+              "startOffset": 349,
+              "endOffset": 470,
+              "count": 11
+            },
+            {
+              "startOffset": 424,
+              "endOffset": 465,
+              "count": 6
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "2026",
+      "url": "file:///E:/%7Ewindowsmacbook/TP/cool-call-bind/src/callBoundApply.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 239,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "2027",
+      "url": "file:///E:/%7Ewindowsmacbook/TP/cool-call-bind/src/global/Function.prototype.call.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 43,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "2028",
+      "url": "file:///E:/%7Ewindowsmacbook/TP/cool-call-bind/src/global/Function.prototype.apply.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 44,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    },
+    {
+      "scriptId": "2029",
+      "url": "file:///E:/%7Ewindowsmacbook/TP/cool-call-bind/src/callBoundCall.js",
+      "functions": [
+        {
+          "functionName": "",
+          "ranges": [
+            {
+              "startOffset": 0,
+              "endOffset": 113,
+              "count": 1
+            }
+          ],
+          "isBlockCoverage": true
+        }
+      ]
+    }
+  ],
+  "timestamp": 363758.996126,
+  "source-map-cache": {}
+}

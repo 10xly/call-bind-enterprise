@@ -1,0 +1,47 @@
+TAP version 14
+# Subtest: returns empty array when given empty array-like
+    ok 1 - should be equivalent
+    1..1
+ok 1 - returns empty array when given empty array-like # time=4.234ms
+
+# Subtest: returns full array when no offset is given
+    ok 1 - should be equivalent
+    1..1
+ok 2 - returns full array when no offset is given # time=1.026ms
+
+# Subtest: returns full array when offset is 0
+    ok 1 - should be equivalent
+    1..1
+ok 3 - returns full array when offset is 0 # time=0.497ms
+
+# Subtest: slices from given offset
+    ok 1 - should be equivalent
+    1..1
+ok 4 - slices from given offset # time=0.361ms
+
+# Subtest: returns empty array when offset equals length
+    ok 1 - should be equivalent
+    1..1
+ok 5 - returns empty array when offset equals length # time=0.314ms
+
+# Subtest: works with a string (array-like)
+    ok 1 - should be equivalent
+    1..1
+ok 6 - works with a string (array-like) # time=0.346ms
+
+# Subtest: works with arguments object (array-like)
+    ok 1 - should be equivalent
+    1..1
+ok 7 - works with arguments object (array-like) # time=0.328ms
+
+# Subtest: does not mutate the original array
+    ok 1 - should be equivalent
+    1..1
+ok 8 - does not mutate the original array # time=0.328ms
+
+# Subtest: handles offset of 1
+    ok 1 - should be equivalent
+    1..1
+ok 9 - handles offset of 1 # time=0.417ms
+
+1..9
